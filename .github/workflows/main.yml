@@ -31,7 +31,7 @@ jobs:
             cd ~
             git clone https://github.com/kopnik-org/kopnik-server.git
             cd kopnik-server
-            make test full-up
+            make test-full-up
             
 
 
