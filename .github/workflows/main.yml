@@ -25,10 +25,12 @@ jobs:
         run: | 
             cd ~
             git clone https://github.com/kopnik-org/kopnik-server.git
-            cd kopnik-server
             ls -la
       - name: Run Server step 2
-        run: make test-full-up     
+        run: | 
+            ls -la
+            cd kopnik-server          
+            make test-full-up     
             
 
 
