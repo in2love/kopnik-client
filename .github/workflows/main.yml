@@ -29,7 +29,13 @@ jobs:
       - name: Run Server step 2
         env:
           DB_USER: db_user
-        run: |
+          APP_ENV: test
+          DB_PASWORD: db_password
+          DB_NAME: db_name
+          LOCAL_VIRTUAL_HOST: kopnik.org.local
+          PRODUCTION_VIRTUAL_HOST: kopnik.org
+          WEB_PORT: 8082
+          run: |
             ls -la 
             cd ~
             ls -la
