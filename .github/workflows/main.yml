@@ -35,7 +35,7 @@ jobs:
           LOCAL_VIRTUAL_HOST: kopnik.org.local
           PRODUCTION_VIRTUAL_HOST: kopnik.org
           WEB_PORT: 8082
-          run: |
+        run: |
             ls -la 
             cd ~
             ls -la
