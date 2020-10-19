@@ -27,6 +27,8 @@ jobs:
             git clone https://github.com/kopnik-org/kopnik-server.git
             ls -la
       - name: Run Server step 2
+        env:
+          DB_USER: db_user
         run: |
             ls -la 
             cd ~
