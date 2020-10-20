@@ -23,6 +23,9 @@ jobs:
           PRODUCTION_VIRTUAL_HOST: kopnik.org
           WEB_PORT: 8082
         run: ls -la 
-            
+      - name: Run Tests
+        run: |
+          cd kopnik-server
+          make test-full-up
 
 
