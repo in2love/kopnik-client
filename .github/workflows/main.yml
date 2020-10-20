@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Cloning Kopnik-Server Repo in to the current container
-        run: https://github.com/kopnik-org/kopnik-server.git
+        run: git clone https://github.com/kopnik-org/kopnik-server.git
       
       - name: Declaring envoirment variables
         env:
