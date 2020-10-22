@@ -17,7 +17,7 @@ jobs:
         env:
           DB_NAME: db_name
           DB_USER: db_user
-          DB_PASWORD: db_password
+          DB_PASSWORD: db_password
           APP_ENV: test
           LOCAL_VIRTUAL_HOST: kopnik.org.local
           PRODUCTION_VIRTUAL_HOST: kopnik.org
